@@ -1,2 +1,2 @@
 # dataRepresentation
-Coursework for the Data Representation course Sep - Dec 2019
+Coursework for the GMIT Data Representation course Sep - Dec 2019
