@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+
+  <book catalogue="Technical">
+    <title>Python Cookbook: Recipes for Mastering Python 3</title>
+    <isbn>1449340377</isbn>
+    <author>Brian K. Jones</author>
+  </book>
+
+  <book catalogue="Technical">
+    <title>Fluent Python</title>
+    <isbn>1491946008</isbn>
+    <author>Luciano Ramalho</author>
+  </book>
+
+  <book catalogue="Cookery">
+    <title>Veg</title>
+    <isbn>1250262887</isbn>
+    <author>Jamie Oliver</author>
+  </book>
+
+  <book catalogue="Cookery">
+    <title>River Cottage Veg Every Day</title>
+    <isbn>9781408888520</isbn>
+    <author>Hugh Fearnley-Whittingstall </author>
+  </book>
+
+</library>

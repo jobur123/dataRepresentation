@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ex2.7</title>
+  </head>
+<body>
+    <label>enter a value less than 1 for default ouput</label>
+    <input type="number" onchange="checkNumber(this)"/>
+    <br/>
+    <div id="output">
+      output goes here
+    </div>
+    <div id="out">
+        array output goes here
+      </div>
+    <script>
+      // declare array
+      var cars = ['Peugeot', 'Volvo', 'Ford']
+      var outCar = ""
+      for(car of cars){
+        outCar += car + '<br//>'
+      }
+      document.getElementById("out").innerHTML = outCar  
+
+      function checkNumber(inputElement)
+      {
+
+        // clear values in output div
+       /* var node = document.getElementById("output");
+        while (node.hasChildNodes()) {
+              node.removeChild(node.firstChild);
+        }*/        
+        var value = parseInt(inputElement.value)
+        if(value < 1){
+          for(var i=1;i<11;i++){
+            output += i + ' '
+          }
+          document.getElementById("output").innerText = output
+        }
+        else if ( value > 0)
+        {
+          for(var i=1;i<value + 1;i++)
+          {
+            output += i + ' '
+            document.getElementById("output").innerText = output
+          }
+        }
+      }
+</script>
+</body>
+</html>
